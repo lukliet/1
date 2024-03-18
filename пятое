@@ -1,0 +1,9 @@
+class artefact:
+    def __init__(self, nazvanie, proishozhdenie, vozrast):
+        self.nazvanie=nazvanie
+        self.proishozhdenie=proishozhdenie
+        self.vozrast=vozrast
+    def opisanie(self):
+        print("артефакт-", self.nazvanie, "происхождение-", self.proishozhdenie, "возраст-",  self.vozrast)
+opisanie=artefact("ваза", "древнее", "1488")
+opisanie.opisanie()
