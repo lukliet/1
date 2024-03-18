@@ -1,0 +1,9 @@
+class odezhda:
+    def __init__(self, tip, material, razmer):
+        self.tip=tip
+        self.material=material
+        self.razmer=razmer
+    def opisanie(self):
+        print("одежда-", self.tip, "материал-", self.material, "размер-",  self.razmer)
+opisanie=odezhda("куртка","кожа","1488")
+opisanie.opisanie()
