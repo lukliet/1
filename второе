@@ -1,0 +1,9 @@
+class komp_ustr():
+    def __init__(self, nazvanie, tip, god_vupuska):
+        self.nazvanie=nazvanie
+        self.tip=tip
+        self.god_vupuska=god_vupuska
+    def opisanie(self):
+        print("устройство-", self.nazvanie, "тип-", self.tip, "год выпуска-", self.god_vupuska)
+opisanie=komp_ustr("компьютер","крутой","1488")
+opisanie.opisanie()
