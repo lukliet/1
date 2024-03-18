@@ -1,0 +1,9 @@
+class sport_inventar:
+    def __init__(self, nazvanie, vid, color):
+        self.nazvanie=nazvanie
+        self.vid=vid
+        self.color=color
+    def opisanie(self):
+        print("инвентарь-", self.nazvanie, "вид-", self.vid, "цвет-",  self.color)
+opisanie=sport_inventar("мячи","баскетбольные","коричневые")
+opisanie.opisanie()
