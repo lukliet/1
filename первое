@@ -1,0 +1,9 @@
+class fruit():
+    def __init__(self, nazvanie, color, ves):
+        self.nazvanie=nazvanie
+        self.color=color
+        self.ves=ves
+    def opisanie(self):
+        print ("фрукт-", self.nazvanie, "цвет-", self.color, "вес-", self.ves)
+opisanie=fruit("яблоко","красное","1488")
+opisanie.opisanie()
